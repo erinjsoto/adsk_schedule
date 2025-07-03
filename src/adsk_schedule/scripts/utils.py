@@ -4,6 +4,15 @@ utils.py: Helper functions for schedule generation and validation.
 
 import numpy as np
 
+def get_random_shift(user_names, user_shifts):
+    """Selects a random user and a random shift from that user's preferences."""
+    idx = np.random.choice(len(user_names))
+    selected_user = user_names[idx]
+    if isinstance(user_shifts[idx], list):
+        selected_shift = np.random.choice(user_shifts[idx])
+    else:
+        selected_shift = user_shifts[idx]
+    return selected_user, selected_shift
 
 def select_random_user_and_shift(user_data):
     """
