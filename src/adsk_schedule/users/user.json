@@ -1,0 +1,10 @@
+[
+  {"name": "Alice Smith", "shift": ["morning", "midday"]},
+  {"name": "Bob Johnson", "shift": ["midday", "night"]},
+  {"name": "Carol Lee", "shift": ["night", "morning"]},
+  {"name": "David Kim", "shift": ["morning", "night"]},
+  {"name": "Eva Brown", "shift": ["midday", "morning"]},
+  {"name": "Frank White", "shift": ["night", "midday"]},
+  {"name": "Grace Green", "shift": ["morning", "night"]},
+  {"name": "Henry Black", "shift": ["midday", "night"]}
+]
